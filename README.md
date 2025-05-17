@@ -102,22 +102,6 @@ DigitalBank-front/
 5. **Access the Application**
    - Open your browser and navigate to `http://localhost:4200`
 
-## Components Documentation
-
-### Customers Component
-
-The Customers component handles all customer-related operations:
-
-- **Customer List View**
-  - Complete customer listing
-  - Search and filter capabilities
-  - Customer status indicators
-
-- **Customer Details View**
-  - Personal information
-  - Associated accounts
-  - Account summaries
-
 
 ## How It Works
 
@@ -139,7 +123,20 @@ The Customers component handles all customer-related operations:
 ![alt text](src/images/image3.png)
 ![alt text](src/images/image4.png)
 
-#### Result  
+### Result  
+![alt text](src/images/image5.png)
+
+### 1. Account Management
+
+#### Account Operations
+- Select an account
+- Choose operation type (Debit/Credit/Transfer)
+- Enter amount and description
+- Confirm operation
+- View updated balance and transaction history
+![alt text](src/images/image6.png)
+![alt text](src/images/image7.png)
+![alt text](src/images/image8.png)
 ![alt text](src/images/image.png)
 
 
