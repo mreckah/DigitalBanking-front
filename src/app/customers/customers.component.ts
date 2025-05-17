@@ -29,4 +29,19 @@ export class CustomersComponent implements OnInit {
       })
     );
   }
+
+  deleteCustomer(id: number): void {
+    if (confirm('Are you sure you want to delete this customer?')) {
+      this.customerService.deleteCustomer(id).subscribe({
+        next: () => {
+          console.log('Customer deleted successfully');
+          this.loadCustomers(); // Reload the customers list
+        },
+        error: (err) => {
+          console.error('Error deleting customer:', err);
+          this.errorMessage = err.message || 'An error occurred while deleting the customer';
+        }
+      });
+    }
+  }
 }
