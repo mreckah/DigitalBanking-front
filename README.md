@@ -139,5 +139,5 @@ DigitalBank-front/
 ![alt text](src/images/image8.png)
 ![alt text](src/images/image.png)
 
-
-Project Link: [https://github.com/mreckah/DigitalBanking-front](https://github.com/mreckah/DigitalBanking-front)
+- 🔙 **Backend Repository**: 
+> 🔗 This frontend connects to the [Digital Banking Backend](https://github.com/mreckah/Digital-Banking), a Spring Boot REST API handling all core banking logic and data management.
