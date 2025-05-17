@@ -76,7 +76,7 @@ DigitalBank-front/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/DigitalBanking-front.git
+   git clone https://github.com/mreckah/DigitalBanking-front.git
    cd DigitalBanking-front
    ```
 
@@ -102,3 +102,45 @@ DigitalBank-front/
 5. **Access the Application**
    - Open your browser and navigate to `http://localhost:4200`
 
+## Components Documentation
+
+### Customers Component
+
+The Customers component handles all customer-related operations:
+
+- **Customer List View**
+  - Complete customer listing
+  - Search and filter capabilities
+  - Customer status indicators
+
+- **Customer Details View**
+  - Personal information
+  - Associated accounts
+  - Account summaries
+
+
+## How It Works
+
+### 1. Customer Management
+
+#### View All Customers
+- Access the Customers section
+- Browse through customer list
+- Use search functionality
+- View customer details
+![alt text](src/images/image1.png)
+
+#### Customer Operations
+- Add new customers
+- Update customer information
+- View customer's accounts
+- Delete customers (if no active accounts)
+![alt text](src/images/image2.png)
+![alt text](src/images/image3.png)
+![alt text](src/images/image4.png)
+
+#### Result  
+![alt text](src/images/image.png)
+
+
+Project Link: [https://github.com/mreckah/DigitalBanking-front](https://github.com/mreckah/DigitalBanking-front)
