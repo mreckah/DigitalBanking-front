@@ -1,0 +1,30 @@
+export interface AccountDetails {
+  id: string;
+  balance: number;
+  type: string;
+  createdAt: Date;
+  customerId: number;
+  customerName: string;
+  overDraft?: number;
+  interestRate?: number;
+  status?: string;
+  currency?: string;
+}
+
+export interface AccountOperation {
+  id: number;
+  date: Date;
+  amount: number;
+  type: string;
+  description: string;
+  accountId: string;
+}
+
+export interface AccountHistory {
+  accountId: string;
+  balance: number;
+  currentPage: number;
+  totalPages: number;
+  pageSize: number;
+  accountOperations: AccountOperation[];
+} 
