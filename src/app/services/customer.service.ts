@@ -20,6 +20,10 @@ export class CustomerService {
     return this.http.get<Customer[]>(`${this.backendHost}/customers`);
   }
 
+  public getCustomer(id: number): Observable<Customer> {
+    return this.http.get<Customer>(`${this.backendHost}/customers/${id}`);
+  }
+
   public searchCustomers(keyword: string): Observable<Customer[]> {
     return this.http.get<Customer[]>(`${this.backendHost}/customers/search?keyword=${keyword}`);
   }
@@ -28,6 +32,10 @@ export class CustomerService {
     console.log('Sending POST request to:', `${this.backendHost}/customers`);
     console.log('With data:', customer);
     return this.http.post<Customer>(`${this.backendHost}/customers`, customer, this.httpOptions);
+  }
+
+  public updateCustomer(id: number, customer: Customer): Observable<Customer> {
+    return this.http.put<Customer>(`${this.backendHost}/customers/${id}`, customer, this.httpOptions);
   }
 
   public deleteCustomer(id: number): Observable<void> {

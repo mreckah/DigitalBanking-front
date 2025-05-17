@@ -3,6 +3,7 @@ import {CustomersComponent} from './customers/customers.component';
 import {AccountsComponent} from './accounts/accounts.component';
 import {SearchCustomersComponent} from './customers/search-customers/search-customers.component';
 import {NewCustomerComponent} from './customers/new-customer/new-customer.component';
+import {EditCustomerComponent} from './customers/edit-customer/edit-customer.component';
 import {NgModule} from '@angular/core';
 
 export const routes: Routes = [
@@ -11,6 +12,7 @@ export const routes: Routes = [
     {path :"accounts",component :AccountsComponent},
     {path :"customers/search",component :SearchCustomersComponent},
     {path :"customers/new",component :NewCustomerComponent},
+    {path :"customers/edit/:id",component :EditCustomerComponent},
 ];
 
 @NgModule({

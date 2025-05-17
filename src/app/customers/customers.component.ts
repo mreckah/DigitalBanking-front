@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 import { CustomerService } from '../services/customer.service';
 import { Customer } from '../model/customer.model';
 import { Observable, catchError, throwError } from 'rxjs';
@@ -9,7 +10,7 @@ import { Observable, catchError, throwError } from 'rxjs';
   templateUrl: './customers.component.html',
   styleUrls: ['./customers.component.css'],
   standalone: true,
-  imports: [CommonModule]
+  imports: [CommonModule, RouterModule]
 })
 export class CustomersComponent implements OnInit {
   customers$!: Observable<Customer[]>;
