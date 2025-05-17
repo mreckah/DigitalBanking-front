@@ -1,59 +1,104 @@
-# DigitalBankFront
+# 🏦 Digital Banking Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+## 📋 Table of Contents
 
-## Development server
+1. [Project Description](#project-description)
+2. [Features](#features)
+3. [Project Structure](#project-structure)
+4. [Technical Stack](#technical-stack)
+5. [Installation & Setup](#installation--setup)
+6. [Components Documentation](#components-documentation)
+7. [How It Works](#how-it-works)
 
-To start a local development server, run:
+## Project Description
 
-```bash
-ng serve
+Digital Banking Frontend is a modern, responsive web application built with Angular that provides a comprehensive interface for managing bank accounts, customers, and banking operations. The application offers an intuitive user experience with real-time updates and seamless navigation.
+
+## Features
+
+### Core Banking Features
+
+- **Customer Management**
+  - View all customers
+  - Search customers by name or ID
+  - Add new customers
+  - Update customer information
+  - Delete customers
+
+- **Account Management**
+  - View all accounts
+  - Search accounts by ID, type, or customer
+  - View detailed account information
+  - Track account balance and status
+  - Monitor overdraft limits and interest rates
+
+- **Banking Operations**
+  - Perform deposits (Credit)
+  - Process withdrawals (Debit)
+  - Execute transfers between accounts
+  - View transaction history
+  - Access account statements
+
+## Project Structure
+
+```
+DigitalBank-front/
+├── src/
+│   ├── app/
+│   │   ├── accounts/           # Account management components
+│   │   │   ├── accounts.component.ts
+│   │   │   ├── accounts.component.html
+│   │   │   └── accounts.component.css
+│   │   ├── customers/          # Customer management components
+│   │   ├── services/           # API services
+│   │   │   ├── accounts.service.ts
+│   │   │   └── customers.service.ts
+│   │   ├── model/             # Data models
+│   │   │   ├── account.model.ts
+│   │   │   └── customer.model.ts
+│   │   └── shared/            # Shared components and utilities
+│   ├── assets/                # Static assets
+│   └── environments/          # Environment configurations
+└── package.json
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Technical Stack
 
-## Code scaffolding
+- **Framework**: Angular 17
+- **UI Framework**: Bootstrap 5
+- **State Management**: RxJS
+- **Forms**: Reactive Forms
+- **HTTP Client**: Angular HttpClient
+- **Styling**: CSS3 with Bootstrap
+- **Build Tool**: Angular CLI
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Installation & Setup
 
-```bash
-ng generate component component-name
-```
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/DigitalBanking-front.git
+   cd DigitalBanking-front
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-```bash
-ng generate --help
-```
+3. **Configure Environment**
+   ```typescript
+   // environment.ts
+   export const environment = {
+     production: false,
+     apiUrl: 'http://localhost:8080'
+   };
+   ```
 
-## Building
+4. **Start Development Server**
+   ```bash
+   ng serve
+   ```
 
-To build the project run:
+5. **Access the Application**
+   - Open your browser and navigate to `http://localhost:4200`
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
