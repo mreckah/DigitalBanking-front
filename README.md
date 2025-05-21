@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <a href="https://github.com/mreckah">
-    <img height="100" width="250" src="images/img_13.png" alt="e-Bank App" style="max-width: 300px ; border-radius: 10px;">
+    <img height="100" width="250" src="imge.webp" alt="e-Bank App" style="max-width: 300px ; border-radius: 10px;">
   </a>
 </h1>
 <p align="center">
