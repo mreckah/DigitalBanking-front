@@ -1,5 +1,22 @@
-# 🏦 Digital Banking Frontend
+# E-Bank Backend
 
+<h1 align="center">
+  <a href="https://github.com/mreckah">
+    <img height="100" width="250" src="images/img_13.png" alt="e-Bank App" style="max-width: 300px ; border-radius: 10px;">
+  </a>
+</h1>
+<p align="center">
+  &nbsp;    
+  <a target="_blank" href="https://www.linkedin.com/in/nabbar-oussama/">
+    <img height="20" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+  </a>
+  <a href="mailto:m.reckahwalt@gmail.com" target="_blank" onclick="window.open(this.href,'_blank'); return false;">
+    <img height="20" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail Badge" />
+  </a>
+  <a target="_blank" href="https://github.com/mreckah">
+    <img height="20" src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub Badge" />
+  </a>
+</p>
 ## 📋 Table of Contents
 
 1. [Project Description](#project-description)
@@ -140,4 +157,4 @@ DigitalBank-front/
 ![alt text](src/images/image.png)
 
 - 🔙 **Backend Repository**: 
-> 🔗 This frontend connects to the [Digital Banking Backend](https://github.com/mreckah/Digital-Banking), a Spring Boot REST API handling all core banking logic and data management.
+> 🔗 This frontend connects to the [Digital Banking Backend](https://github.com/mreckah/E-Bank-backend), a Spring Boot REST API handling all core banking logic and data management.
