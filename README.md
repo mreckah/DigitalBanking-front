@@ -143,7 +143,7 @@ DigitalBank-front/
 ### Result  
 ![alt text](src/images/image5.png)
 
-### 1. Account Management
+### 2. Account Management
 
 #### Account Operations
 - Select an account
@@ -155,6 +155,16 @@ DigitalBank-front/
 ![alt text](src/images/image7.png)
 ![alt text](src/images/image8.png)
 ![alt text](src/images/image.png)
+
+### 🔐 Login Interface
+A simple, secure login page allows users to authenticate using email and password. It uses Angular Reactive Forms for validation and connects to the backend for authentication.
+- Validates credentials and handles errors
+- Stores JWT token on success
+- Redirects to the dashboard after login
+![alt text](src/images/img.png)
+
+
+
 
 - 🔙 **Backend Repository**: 
 > 🔗 This frontend connects to the [Digital Banking Backend](https://github.com/mreckah/E-Bank-backend), a Spring Boot REST API handling all core banking logic and data management.
